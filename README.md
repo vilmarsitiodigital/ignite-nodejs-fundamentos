@@ -6,7 +6,7 @@
   Fundamentos do NodeJS
 </h3>
 
-<p align="center">Conceitos e regras por trás de uma API Rest, os métodos HTTPs, os principais códigos de retornos e tipos de parâmetros.</p>
+<p align="center">Conceitos e regras por trás de uma API Rest, os métodos HTTPs, os principais códigos de retornos e parâmetros.</p>
 
 <p align="center">
   <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/vilmarsitiodigital/ignite-nodejs-fundamentos
@@ -47,38 +47,22 @@
 </p>
 
 <p id="insomniaButton" align="center">
-  <a href="https://insomnia.rest/run/?label=GoBarber%20-%20VilmarBatistaf&uri=https%3A%2F%2Fgithub.com%2Fvilmarsitiodigital%2Fgobarber-api%2Fblob%2Fmain%2FInsomnia.json" target="_blank"><img src="https://insomnia.rest/images/run.svg" alt="Run in Insomnia"></a>
+  <a href="https://insomnia.rest/run/?label=FundamentosNode%20-%20VilmarBatistaf&uri=https%3A%2F%2Fgithub.com%2Fvilmarsitiodigital%2Fgobarber-api%2Fblob%2Fmain%2FInsomnia.json" target="_blank"><img src="https://insomnia.rest/images/run.svg" alt="Run in Insomnia"></a>
 </p>
 
 ## 💇🏻‍♂️ About the project
 
-This api provides everything needed to organize appointments between the barbers and customers.
+Conhecendo os conceitos do Node.js, como é o seu funcionamento e os motivos pelo qual ele foi criado.
 
-Customers can choose the best time available to them.
-
-Providers can see all their appointments, manage the times, also see if one client canceled the schedule.
-
-To see the **web client**, click here: [GoBarber Web](https://github.com/vilmarsitiodigital/gobarber-web)<br />
-To see the **mobile client**, click here: [GoBarber Mobile](https://github.com/vilmarsitiodigital/gobarber-mobile)
+Conceitos e regras por trás de uma API Rest, os métodos HTTPs, os principais códigos de retornos e tipos de parâmetros de uma requisição.
 
 ## 🚀 Technologies
 
 Technologies that I used to develop this api
 
 - [Node.js](https://nodejs.org/en/)
-- [TypeScript](https://www.typescriptlang.org/)
 - [Express](https://expressjs.com/pt-br/)
-- [Multer](https://github.com/expressjs/multer)
-- [TypeORM](https://typeorm.io/#/)
-- [JWT-token](https://jwt.io/)
-- [uuid v4](https://github.com/thenativeweb/uuidv4/)
-- [PostgreSQL](https://www.postgresql.org/)
-- [Date-fns](https://date-fns.org/)
-- [Jest](https://jestjs.io/)
-- [SuperTest](https://github.com/visionmedia/supertest)
-- [Husky](https://github.com/typicode/husky)
-- [Commitlint](https://github.com/conventional-changelog/commitlint)
-- [Commitizen](https://github.com/commitizen/cz-cli)
+- [Nodemon](https://www.npmjs.com/package/nodemon)
 - [Eslint](https://eslint.org/)
 - [Prettier](https://prettier.io/)
 - [EditorConfig](https://editorconfig.org/)
@@ -91,14 +75,11 @@ Import the `Insomnia.json` on Insomnia App or click on [Run in Insomnia](#insomn
 
 - [Node.js](https://nodejs.org/en/)
 - [Yarn](https://classic.yarnpkg.com/) or [npm](https://www.npmjs.com/)
-- One instance of [PostgreSQL](https://www.postgresql.org/)
-
-> Obs.: I recommend use docker
 
 **Clone the project and access the folder**
 
 ```bash
-$ git clone https://github.com/vilmarsitiodigital/gobarber-api.git && cd gobarber-api
+$ git clone https://github.com/vilmarsitiodigital/ignite-nodejs-fundamentos.git && cd ignite-nodejs-fundamentos
 ```
 
 **Follow the steps below**
@@ -107,27 +88,8 @@ $ git clone https://github.com/vilmarsitiodigital/gobarber-api.git && cd gobarbe
 # Install the dependencies
 $ yarn
 
-# Make a copy of '.env.example' to '.env'
-# and set with YOUR environment variables.
-# The aws variables do not need to be filled for dev environment
-$ cp .env.example .env
-
-# Create the instance of postgreSQL using docker
-$ docker run --name gobarber-postgres -e POSTGRES_USER=docker \
-              -e POSTGRES_DB=gobarber -e POSTGRES_PASSWORD=docker \
-              -p 5432:5432 -d postgres
-
-# Create the instance of mongoDB using docker
-$ docker run --name gobarber-mongodb -p 27017:27017 -d -t mongo
-
-# Create the instance of redis using docker
-$ docker run --name gobarber-redis -p 6379:6379 -d -t redis:alpine
-
-# Once the services are running, run the migrations
-$ yarn typeorm migration:run
-
 # To finish, run the api service
-$ yarn dev:server
+$ yarn dev
 
 # Well done, project is started!
 ```
@@ -147,7 +109,7 @@ $ gh repo fork vilmarsitiodigital/gobarber-api
 
 ```bash
 # Clone your fork
-$ git clone your-fork-url && cd gobarber-api
+$ git clone your-fork-url && cd ignite-nodejs-fundamentos
 
 # Create a branch with your feature
 $ git checkout -b my-feature
