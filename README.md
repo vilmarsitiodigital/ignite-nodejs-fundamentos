@@ -9,32 +9,24 @@
 <p align="center">Conceitos e regras por trás de uma API Rest, os métodos HTTPs, os principais códigos de retornos e parâmetros.</p>
 
 <p align="center">
-  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/vilmarsitiodigital/ignite-nodejs-fundamentos
-?color=%2300d561">
+  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/vilmarsitiodigital/ignite-nodejs-fundamentos?color=%2300d561">
 
   <a href="https://www.linkedin.com/in/vilmarbatista/" target="_blank" rel="noopener noreferrer">
     <img alt="Made by" src="https://img.shields.io/badge/made%20by-vilmar-00d561">
   </a>
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/vilmarsitiodigital/ignite-nodejs-fundamentos
-?color=%2300d561">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/vilmarsitiodigital/ignite-nodejs-fundamentos?color=%2300d561">
 
-  <a href="https://github.com/vilmarsitiodigital/ignite-nodejs-fundamentos
-/commits/main">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/vilmarsitiodigital/ignite-nodejs-fundamentos
-?color=%2300d561">
+  <a href="https://github.com/vilmarsitiodigital/ignite-nodejs-fundamentos/commits/main">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/vilmarsitiodigital/ignite-nodejs-fundamentos?color=%2300d561">
   </a>
 
-  <a href="https://github.com/vilmarsitiodigital/ignite-nodejs-fundamentos
-/issues">
-    <img alt="Repository issues" src="https://img.shields.io/github/issues/vilmarsitiodigital/ignite-nodejs-fundamentos
-?color=%23FF9000">
+  <a href="https://github.com/vilmarsitiodigital/ignite-nodejs-fundamentos/issues">
+    <img alt="Repository issues" src="https://img.shields.io/github/issues/vilmarsitiodigital/ignite-nodejs-fundamentos?color=%2300d561">
   </a>
 
-  <a href="https://github.com/vilmarsitiodigital/ignite-nodejs-fundamentos
-/blob/main/LICENSE">
-    <img alt="GitHub" src="https://img.shields.io/github/license/vilmarsitiodigital/ignite-nodejs-fundamentos
-?color=%23FF9000">
+  <a href="https://github.com/vilmarsitiodigital/ignite-nodejs-fundamentos/blob/main/LICENSE">
+    <img alt="GitHub" src="https://img.shields.io/github/license/vilmarsitiodigital/ignite-nodejs-fundamentos?color=%2300d561">
   </a>
 </p>
 
