@@ -102,7 +102,7 @@ $ yarn dev
 # Fork using GitHub official command line
 # If you don't have the GitHub CLI, use the web site to do that.
 
-$ gh repo fork vilmarsitiodigital/gobarber-api
+$ gh repo fork vilmarsitiodigital/ignite-nodejs-fundamentos
 ```
 
 **Follow the steps below**
